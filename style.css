@@ -21,3 +21,23 @@ body {
     margin: 0;
     background-color: #333a48;
 }
+
+.controls {
+    margin-bottom: 24px;
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    line-height: 22px;
+    color: #eff1f5;
+    border-bottom: 2px solid #20262d;
+    background-color: #485671;
+}
+
+.container {
+    width: 326px;
+    height: 66px;
+    margin: 0 auto;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
