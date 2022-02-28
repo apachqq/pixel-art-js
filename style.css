@@ -41,3 +41,19 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.chosen-color {
+    display: flex;
+    padding: 8px 36px 8px 12px;
+    font: inherit;
+    color: inherit;
+    border: 2px solid #20262d;
+    border-radius: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 8px top 50%;
+    background-size: 14px auto;
+    background-color: #485671;
+}
