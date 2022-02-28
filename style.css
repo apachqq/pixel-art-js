@@ -57,3 +57,22 @@ body {
     background-size: 14px auto;
     background-color: #485671;
 }
+
+.chosen-color::-ms-expand {
+    display: none;
+}
+
+.chosen-color:focus {
+    outline: 2px dashed #6e86b3;
+    outline-offset: 2px;
+}
+
+.chosen-color:hover {
+    background-color: #304153;
+}
+
+.eraser-label {
+    position: relative;
+    padding: 8px 0 8px 40px;
+    cursor: pointer;
+}
