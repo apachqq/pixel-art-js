@@ -140,3 +140,11 @@ body {
     flex-wrap: wrap;
     border: 3px solid #20262d;
 }
+
+.pixel {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333a48;
+    background-color: #ffffff;
+    cursor: pointer;
+}
