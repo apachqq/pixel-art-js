@@ -107,3 +107,36 @@ body {
     background-color: #20262d;
     border-color: #485671;
 }
+
+.eraser-label::after {
+    position: absolute;
+    content: "";
+    left: 6px;
+    top: 6px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+
+.main {
+    position: relative;
+    height: calc(100vh - 92px);
+    width: 326px;
+    margin: 0 auto;
+}
+
+.main::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: -120px;
+    width: 100px;
+    height: 105px;
+    background-repeat: no-repeat;
+}
+
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid #20262d;
+}
