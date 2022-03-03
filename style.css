@@ -89,7 +89,6 @@ body {
 
 .eraser:checked+.eraser-label::before {
     background-color: #20262d;
-    background-image: url("img/pixel-check.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
